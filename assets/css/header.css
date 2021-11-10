@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  font-family: sans-serif; }
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: wheat; }
+  header ul {
+    display: flex; }
+    header ul li {
+      list-style: none; }
+      header ul li a {
+        text-decoration: none;
+        margin-right: 0.6rem;
+        color: white;
+        text-transform: capitalize; }

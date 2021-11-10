@@ -1,0 +1,23 @@
+#home_container {
+  display: flex;
+
+  #feed-post {
+    width: 70%;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+  }
+
+  #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid lightgray;
+    height: 100vh;
+    background-color: olivedrab;
+    color: cyan;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

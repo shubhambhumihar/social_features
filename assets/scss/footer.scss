@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 5rem;
+
+  ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        margin-right: 1rem;
+        color: orange;
+      }
+    }
+  }
+}
